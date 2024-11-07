@@ -28,6 +28,12 @@ import TanStackQuery from "../../public/icons/tanStackQuery.svg";
 import Threejs from "../../public/icons/threejs.svg";
 import TypeScript from "../../public/icons/typescript.svg";
 
+import dynamic from "next/dynamic";
+
+const DynamicMap = dynamic(() => import("../components/Map"), {
+  ssr: false,
+});
+
 const toolboxItems = [
   {
     title: "JavaScript",
@@ -211,7 +217,7 @@ export default function AboutSection() {
               </div>
             </Card>
             <Card className="h-[320px] p-0 relative md:col-span-2 lg:col-span-1">
-              <Map />
+              <DynamicMap />
             </Card>
           </div>
         </div>
