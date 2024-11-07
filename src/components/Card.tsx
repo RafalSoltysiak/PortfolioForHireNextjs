@@ -1,7 +1,7 @@
 import { ComponentPropsWithRef } from "react";
 import { twMerge } from "tailwind-merge";
 
-import grainImage from "@/assets/images/grain.jpg";
+import grainImage from "../../public/images/grain.jpg";
 
 export default function Card({
   className,

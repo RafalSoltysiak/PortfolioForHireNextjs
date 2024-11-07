@@ -10,23 +10,23 @@ import Map from "@/components/Map";
 import Card from "@/components/Card";
 import SectionHeader from "@/components/SectionHeader";
 
-import AdeptusCustodes from "@/assets/images/adeptusCustodes.png";
-import JavaScriptIcon from "@/assets/icons/square-js.svg";
-import HTMLIcon from "@/assets/icons/html5.svg";
-import CssIcon from "@/assets/icons/css3.svg";
-import ReactIcon from "@/assets/icons/react.svg";
-import ChromeIcon from "@/assets/icons/chrome.svg";
-import GithubIcon from "@/assets/icons/github.svg";
-import Angular from "@/assets/icons/angular.svg";
-import Firebase from "@/assets/icons/firebase.svg";
-import Mui from "@/assets/icons/mui.svg";
-import Nextjs from "@/assets/icons/nextjs.svg";
-import Redux from "@/assets/icons/redux.svg";
-import Shadcn from "@/assets/icons/shadcn.svg";
-import Supabase from "@/assets/icons/supabase.svg";
-import TanStackQuery from "@/assets/icons/tanStackQuery.svg";
-import Threejs from "@/assets/icons/threejs.svg";
-import TypeScript from "@/assets/icons/typescript.svg";
+import AdeptusCustodes from "../../public/images/adeptusCustodes.png";
+import JavaScriptIcon from "../../public/icons/square-js.svg";
+import HTMLIcon from "../../public/icons/html5.svg";
+import CssIcon from "../../public/icons/css3.svg";
+import ReactIcon from "../../public/icons/react.svg";
+import ChromeIcon from "../../public/icons/chrome.svg";
+import GithubIcon from "../../public/icons/github.svg";
+import Angular from "../../public/icons/angular.svg";
+import Firebase from "../../public/icons/firebase.svg";
+import Mui from "../../public/icons/mui.svg";
+import Nextjs from "../../public/icons/nextjs.svg";
+import Redux from "../../public/icons/redux.svg";
+import Shadcn from "../../public/icons/shadcn.svg";
+import Supabase from "../../public/icons/supabase.svg";
+import TanStackQuery from "../../public/icons/tanStackQuery.svg";
+import Threejs from "../../public/icons/threejs.svg";
+import TypeScript from "../../public/icons/typescript.svg";
 
 const toolboxItems = [
   {

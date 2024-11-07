@@ -4,7 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
-import smileMemoji from "@/assets/images/memoji-smile.png";
+import smileMemoji from "../../public/images/memoji-smile.png";
 
 const customIcon = new L.Icon({
   iconUrl: smileMemoji.src,

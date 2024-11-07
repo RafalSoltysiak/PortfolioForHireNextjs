@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
+import ArrowUpRightIcon from "../../public/icons/arrow-up-right.svg";
 
 const footerLinks = [
   {

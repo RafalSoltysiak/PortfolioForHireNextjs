@@ -2,11 +2,11 @@ import Image from "next/image";
 
 import HeroOrbit from "@/components/HeroOrbit";
 
-import memojiImage from "@/assets/images/memoji-computer.png";
-import grainImage from "@/assets/images/grain.jpg";
-import ArrowDown from "@/assets/icons/arrow-down.svg";
-import StarIcon from "@/assets/icons/star.svg";
-import SparkleIcon from "@/assets/icons/sparkle.svg";
+import memojiImage from "../../public/images/memoji-computer.png";
+import grainImage from "../../public/images/grain.jpg";
+import ArrowDown from "../../public/icons/arrow-down.svg";
+import StarIcon from "../../public/icons/star.svg";
+import SparkleIcon from "../../public/icons/sparkle.svg";
 
 export default function HeroSection() {
   return (
