@@ -10,7 +10,7 @@ import Map from "@/components/Map";
 import Card from "@/components/Card";
 import SectionHeader from "@/components/SectionHeader";
 
-import AdeptusCustodes from "@/assets/images/Custodes.png";
+import AdeptusCustodes from "@/assets/images/adeptusCustodes.png";
 import JavaScriptIcon from "@/assets/icons/square-js.svg";
 import HTMLIcon from "@/assets/icons/html5.svg";
 import CssIcon from "@/assets/icons/css3.svg";
