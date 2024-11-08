@@ -129,7 +129,7 @@ export default function HeroSection() {
             href="#contact"
             className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl z-10 cursor-pointer"
           >
-            <span className="text-3xl">🐱‍💻</span>
+            <span className="text-3xl">💻</span>
             <span className="font-semibold">Let&apos;s Connect</span>
           </a>
         </div>

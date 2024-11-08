@@ -1,9 +1,29 @@
+"use client";
+
 import Link from "next/link";
+
+import { useToast } from "@/hooks/use-toast";
 
 import ArrowUpRightIcon from "../../public/icons/arrow-up-right.svg";
 import grainImage from "../../public/images/grain.jpg";
 
 export default function ContactSection() {
+  const { toast } = useToast();
+
+  function handleCopiedEmail() {
+    navigator.clipboard
+      .writeText("rafalpawelsoltysiak@gmail.com")
+      .then(() => {
+        toast({
+          variant: "gradient",
+          title: "The email address has been copied!",
+        });
+      })
+      .catch((error) => {
+        alert(`Failed to copy email: ${error}`);
+      });
+  }
+
   return (
     <div className="py-16 pt-12 lg:py-24 lg:pt-20" id="contact">
       <div className="container">
@@ -23,7 +43,7 @@ export default function ContactSection() {
                 love to discuss how I can be a valuable addition to your team!
               </p>
             </div>
-            <div>
+            <div className="flex flex-col gap-4 items-center">
               <Link
                 target="_blank"
                 href="https://www.linkedin.com/in/rafa%C5%82-so%C5%82tysiak-07ab6216a/"
@@ -32,6 +52,13 @@ export default function ContactSection() {
                 <span className="font-semibold">Contact Me</span>
                 <ArrowUpRightIcon className="size-4" />
               </Link>
+              <button
+                onClick={handleCopiedEmail}
+                className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900"
+              >
+                <span className="font-semibold">Email address</span>
+                <ArrowUpRightIcon className="size-4" />
+              </button>
             </div>
           </div>
         </div>

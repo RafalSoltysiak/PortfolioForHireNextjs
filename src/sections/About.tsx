@@ -6,11 +6,10 @@ import { motion } from "framer-motion";
 
 import CardHeader from "@/components/CardHeader";
 import ToolboxItems from "@/components/ToolboxItems";
-import Map from "@/components/Map";
 import Card from "@/components/Card";
 import SectionHeader from "@/components/SectionHeader";
 
-import AdeptusCustodes from "../../public/images/adeptusCustodes.png";
+import Logo from "../../public/images/logo.png";
 import JavaScriptIcon from "../../public/icons/square-js.svg";
 import HTMLIcon from "../../public/icons/html5.svg";
 import CssIcon from "../../public/icons/css3.svg";
@@ -171,8 +170,8 @@ export default function AboutSection() {
                 title="Huge fan"
                 description="A suspicious mind is a healthy mind. - Warhammer 40,000"
               />
-              <div className="w-40 mx-auto mt-2 md:mt-0">
-                <Image src={AdeptusCustodes} alt="book" />
+              <div className="w-50 mx-auto mt-2 md:mt-0 object-contain">
+                <Image src={Logo} alt="Warhammer's logo" />
               </div>
             </Card>
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">
