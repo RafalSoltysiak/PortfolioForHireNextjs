@@ -18,7 +18,7 @@ const portfolioProjects = [
     image: darkSaasLandingPage,
   },
   {
-    title: "Uber Light Mobile App",
+    title: "Uber Mobile App",
     results: [
       { title: "React Native" },
       { title: "TypeScript" },
